@@ -1,2 +1,2 @@
-# flexbox-layout
-A siple layout with CSS flexbox
+# Flexbox Layout
+A simple and responsive layout with CSS flexbox. Just a few tests!
