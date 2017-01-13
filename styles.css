@@ -17,6 +17,7 @@
   --menu-flex-justify-content: space-around;
   --menu-flex-basis: 33%;
   --menu-font-size: 0.9rem;
+  --menu-margin-bottom: 2rem;
 
   --article-title-font-size: 1.8rem;
   --article-subtitle-font-size: 1.6rem;
@@ -82,11 +83,10 @@ h1, h2, h3, h4, h5, h6 {
 .menu {
   width: 100%;
   display: flex;
-  flex-direction: var (--menu-flex-direction);
   justify-content: var(--menu-flex-justify-content);
   flex-wrap: wrap;
   background: #111;
-  margin-bottom: 4rem;
+  margin-bottom: var(--menu-margin-bottom);
 }
 
 .menu-item {
@@ -238,6 +238,7 @@ h1, h2, h3, h4, h5, h6 {
     --menu-flex-justify-content: flex-start;
     --menu-flex-basis: auto;
     --menu-font-size: 1rem;
+    --menu-margin-bottom: 4rem;
 
     --article-title-font-size: 2.4rem;
     --article-subtitle-font-size: 1.8rem;
