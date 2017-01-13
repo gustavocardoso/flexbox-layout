@@ -1,0 +1,33 @@
+{
+  "name": "flexbox-layout",
+  "version": "1.0.0",
+  "description": "A simple flexbox bases layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavocardoso/flexbox-layout.git"
+  },
+  "keywords": [
+    "css",
+    "flexbox",
+    "layout",
+    "study",
+    "web",
+    "development",
+    "front-end"
+  ],
+  "author": "Gustavo Cardoso <gustavocardoso@gmail.com> (http://gustavocardoso.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gustavocardoso/flexbox-layout/issues"
+  },
+  "homepage": "https://github.com/gustavocardoso/flexbox-layout#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "vinyl-ftp": "^0.5.0"
+  }
+}
