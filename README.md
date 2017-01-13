@@ -5,4 +5,4 @@ Juts clone it and run!!!
 
 ## Todo
 
-* A few tweaks on desktop version
+Use your imagination.
