@@ -4,7 +4,7 @@ const ftp = require('vinyl-ftp')
 
 let user = process.env.user
 let password = process.env.pass
-let host = 'ftp.gustavocardoso.me'
+let host = process.env.host
 let port = 21
 let localFilesGlob = ['./**/*', '!node_modules/**']
 let remoteFolder = 'www/sandbox/flexbox-layout'
